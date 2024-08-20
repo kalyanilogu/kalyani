@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: mahalirka;
+}
+.allcontent{
+    background-color: rgb(242, 247, 248);
+}
+h1{
+    font-style: italic;
+}
+
+h2{
+    font-family: mahalirka;
+    text-align: center;
+    text-decoration-color: darkmagenta;
+}
+h3{
+    text-align: center;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/m1.jpg);
+    background-size: cover;
+    background-position:center;
+    background-position: 100%;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+}
+.nav-bar .title{
+    color: rgb(10, 6, 6);
+    font-size: 60px;
+    font-weight: 800;
+    cursor:pointer;
+    font-style: italic;
+}
+span{
+    color: rgb(162, 7, 7);
+}
+.nav-bar p{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 50px;
+    color: rgba(2, 2, 4, 0.959);
+    font-size: 30px;;
+    font-weight: 800;
+    font-style: mahalirka;
+    text-shadow:2px 2px 5px red ;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+    color: rgb(177, 8, 8);
+}
+.menu li a{
+    text-decoration: none;
+    color:rgb(12, 12, 12);
+    font-size: 20px;
+    margin-left: 25px;
+    font-weight: 500;
+    transition: 1s ease;
+
+}
+.menu li a:hover{
+    color: darkred;
+    padding: 5px 30px;
+    border: 2px solid rgb(15, 15, 15) ;
+}
+.home{
+    height: 380px;
+    text-align: center;
+    padding: top 5px;
+    margin: top 50px;
+}
+.title-1{
+    font-size: 50px;
+    color: brown;
+    font-weight: 600;
+    padding: 50px;
+}
+.home p{
+    color: rgb(139, 14, 14);
+    font-size: 20px;
+    padding-top: 0px;
+    font-style: italic;
+}
+.home button{
+    height: 40px;
+    color:rgb(233, 47, 18);
+    font-size: 25px;
+    background:rgb(244, 242, 237);
+    padding: 5px 20px;
+    margin-top: 20px;
+    border-radius: 30px;
+    transform: 1s ease;
+    cursor:pointer;
+}
+.home button:hover{
+    border: 2px solid red;
+}
+.carousel-inner{
+    width: 100%;
+    height:10%
+    max-width=100px;
+}
+.con1{
+    width: 100%;
+    height: 100;
+    text-align: center;
+    font-size: 30px;
+}
+h1{
+    padding: 25px;
+}
+.image-area{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.image-section{
+    width: 100%;
+    max-width: 100px;
+    padding: 10px;  
+}
+.aboutus{
+    margin-left: 70px;
+    text-align:center;
+    padding-top:70px;
+    color:rgb(19, 18, 18)
+}
+.aboutus h1{
+    box-shadow: 80px;
+}
+.aboutus p{
+    padding: left 200px;
+    padding: top 20px;
+    padding-right: 60px;
+    margin-left:30px;
+    text-indent: 25px;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    justify-content:left
+}
+.topic{
+    box-sizing:border-box;
+    background:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 20px;
+}
+.aboutus{
+    height: 550px;
+}
+.aboutus{
+    font-size:50px;
+}
+.row{
+    padding-top:5px; 
+}
+.fullgallery{
+    padding-top:05px; 
+}
+/* footer style */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+html{
+    height: 100%;
+}
+
+body{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: "roboto"; 
+}
+footer{
+    background: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 10px;
+    margin-top: auto;
+}
+footer li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+.footericons a{
+    background: #4dc611;
+    color: #070707;
+    padding: 15px;
+    border-radius: 100px;
+    display: flex;
+    font-size: 25px;
+}
+.footericons a:hover{
+color: blue;
+}
+.footermenu a{
+    color: #589838;
+}
+.footermenu a:hover{
+    color:#569638;
+}
+.footercopyrights{
+    background-color: brown;
+    color: aliceblue;
+    padding: 15px;
+    margin-top: 30px;
+}
+.foootercopyrights p{
+    margin-bottom: 0px;
+}
+
+/* menu*/
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+    display:flex;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px;
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.btn{
+    display: inline-block;
+    background: #de2121;
+    color:#fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #563434;
+}
+.header{
+    background: radial-gradient(#fff,#ffd6d6);
+}
+.header.row{
+    margin-top: 70px;
+}
+.categories{
+    margin: 70px 0;
+}
+.col-3{
+    flex-basis:30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col-3 img{
+    width: 100%;
+    display:flex;
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.col-4{
+    flex-basis:50%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+.col-4 img{
+    width: 100%; 
+    display:flex;
+}
+.col-4:hover{
+    transform: translateY(-5px);
+}
+
+/*  animation and key frames */
+
+.changecontent::after{
+    content: '';
+    color: #de212b;
+    animation: changetext 10s infinite linear;
+    font-size: 80px;
+    text-align:left;
+}
+@keyframes changetext{
+    0%{content: "ART";}
+    20%{content: "PAINT";}
+    60%{content: "CAFE";}
+    100%{content: "LOVE";}
+}
